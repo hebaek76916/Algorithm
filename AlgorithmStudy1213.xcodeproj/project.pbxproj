@@ -32,7 +32,7 @@
 		139D6F05277910770044257C /* 1308_fail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1308_fail.swift; sourceTree = "<group>"; };
 		13AC725B276D9AA10010FC32 /* 3059.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3059.swift; sourceTree = "<group>"; };
 		13F10B8D277B198000627847 /* 1942.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1942.swift; sourceTree = "<group>"; };
-		13F10B90277B350000627847 /* 1157_fail_TimeOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157_fail_TimeOver.swift; sourceTree = "<group>"; };
+		13F10B90277B350000627847 /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 				139D6F032778B8890044257C /* 1110.swift */,
 				139D6F05277910770044257C /* 1308_fail.swift */,
 				13F10B8D277B198000627847 /* 1942.swift */,
-				13F10B90277B350000627847 /* 1157_fail_TimeOver.swift */,
+				13F10B90277B350000627847 /* 1157.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
