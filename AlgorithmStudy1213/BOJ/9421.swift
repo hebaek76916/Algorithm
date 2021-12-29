@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  9421.swift
 //  AlgorithmStudy1213
 //
-//  Created by 현은백 on 2021/12/13.
+//  Created by 현은백 on 2021/12/29.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ func primeNum(_ range: Int) {
     var numSet: [Bool] = Array(repeating: false, count: range + 1)
     
     numSet.enumerated().forEach{ set in
-
+        
         let index = set.offset
         let element = set.element
         
@@ -45,16 +45,13 @@ func primeNum(_ range: Int) {
         
         var sum = 0
         while sum != 1 {
-            
             arr.forEach {
                 sum += ($0)*($0)
             }
             if dict[sum] == nil {
-                //print(sum)
                 dict[sum] = true
                 arr = String(sum).compactMap{ Int(String($0)) }
                 sum = 0
-                
             } else if sum == 1 {
                 print(num)
                 return
@@ -72,3 +69,4 @@ if let input = readLine() {
     
     primeNum(Int(input)!)
 }
+
