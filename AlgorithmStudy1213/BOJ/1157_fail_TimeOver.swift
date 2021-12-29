@@ -6,14 +6,13 @@
 //
 
 import Foundation
-
 // 1157
 func sol(_ input: String) -> String {
     var tempSaver: [String : Int] = [:]
     
     input.forEach { char in
         if tempSaver[String(char)] == nil {
-            let cnt = input.filter({ $0.uppercased() == String(char).uppercased() }).count
+            let cnt = input.filter({ String($0) == String(char) }).count
             tempSaver.updateValue(cnt, forKey: char.uppercased())
         }
             
@@ -33,5 +32,5 @@ func sol(_ input: String) -> String {
 }
 
 if let input = readLine() {
-    print(sol(input))
+    print(sol(input.uppercased()))
 }
