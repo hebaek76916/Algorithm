@@ -35,6 +35,7 @@
 		13F10B90277B350000627847 /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 		13F10B93277C57F800627847 /* bitwise-ors-subarrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bitwise-ors-subarrays.swift"; sourceTree = "<group>"; };
 		13F10B95277CAE2300627847 /* 9421.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9421.swift; sourceTree = "<group>"; };
+		13F10B96277D7A6200627847 /* 23746.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23746.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				13F10B8D277B198000627847 /* 1942.swift */,
 				13F10B90277B350000627847 /* 1157.swift */,
 				13F10B95277CAE2300627847 /* 9421.swift */,
+				13F10B96277D7A6200627847 /* 23746.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
