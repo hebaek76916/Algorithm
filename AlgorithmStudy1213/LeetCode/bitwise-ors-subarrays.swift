@@ -19,7 +19,7 @@ func sol(_ arr: [Int]) -> Int {
 }
 
 let arr = [0]
-print(sol(Array(Set(arr))))
+
 
 //func sol(_ arr: [Int]) -> Int {
 //    if arr.count == 1 {
