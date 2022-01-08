@@ -24,6 +24,12 @@
 
 /* Begin PBXFileReference section */
 		1304C992276D7CA5004D0BCC /* 1225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1225.swift; sourceTree = "<group>"; };
+		1355654A27883CCC00A4D6BC /* 2579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2579.swift; sourceTree = "<group>"; };
+		1355654C2788517000A4D6BC /* 10990.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10990.swift; sourceTree = "<group>"; };
+		1355654F278966A900A4D6BC /* 10996.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10996.swift; sourceTree = "<group>"; };
+		1355655327896D1D00A4D6BC /* 10992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10992.swift; sourceTree = "<group>"; };
+		1355655427896F6600A4D6BC /* 10991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10991.swift; sourceTree = "<group>"; };
+		1355655727899C5600A4D6BC /* 11650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11650.swift; sourceTree = "<group>"; };
 		1391EBDA2767823D008DB7E4 /* AlgorithmStudy1213 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy1213; sourceTree = BUILT_PRODUCTS_DIR; };
 		1391EBDD2767823D008DB7E4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1397E8FA276E4F99001433BF /* 1813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1813.swift; sourceTree = "<group>"; };
@@ -64,6 +70,12 @@
 				13F10B95277CAE2300627847 /* 9421.swift */,
 				13F10B96277D7A6200627847 /* 23746.swift */,
 				13AB45842784493C00C331A1 /* 2447.swift */,
+				1355654A27883CCC00A4D6BC /* 2579.swift */,
+				1355654C2788517000A4D6BC /* 10990.swift */,
+				1355654F278966A900A4D6BC /* 10996.swift */,
+				1355655327896D1D00A4D6BC /* 10992.swift */,
+				1355655427896F6600A4D6BC /* 10991.swift */,
+				1355655727899C5600A4D6BC /* 11650.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
