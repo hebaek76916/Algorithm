@@ -74,43 +74,35 @@ if let today = readLine() {
         print(sol(today, end))
     }
 }
-//
-//extension String {
-//    func toDate() -> Date? { //"yyyy-MM-dd HH:mm:ss"
-//        let dateFormatter = DateFormatter()
-//        dateFormatter.dateFormat = "yyyy-MM-dd"
-//        dateFormatter.timeZone = TimeZone(identifier: "UTC")
-//        if let date = dateFormatter.date(from: self) { return date }
-//            else { return nil }
-//
-//    }
-//
-//}
-//
-//extension Calendar {
-//    func numberOfDaysBetween(_ from: Date, and to: Date) -> Int {
-//        let fromDate = startOfDay(for: from)
-//        let toDate = startOfDay(for: to)
-//        let numberOfDays = dateComponents([.day], from: fromDate, to: toDate)
-//
-//        return numberOfDays.day!
-//    }
-//}
-//
-//if let today = readLine() {
-//    if let end = readLine() {
-//        let start = today.toDate()
-//        let end = end.toDate()
-//
-//        let c = Calendar(identifier: .gregorian).numberOfDaysBetween(start!, and: end!)
-//        if c > 365242 {
-//            print("gg")
-//        } else {
-//            print("D-\(c)")
-//        }
-//
-//    }
-//}
-//
-//
-//
+
+///////////////////////////////////
+//RunTime Error
+func sol2(_ start: String, _ end: String) {
+    let calendar = Calendar.current
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "yyyy MM dd"
+    let startDate = dateFormatter.date(from: start)!
+    let endDate = dateFormatter.date(from: end)!
+    let startCalendar = calendar.dateComponents([.year, .month, .day], from: startDate)
+    let endCalendar = calendar.dateComponents([.year, .month, .day], from: endDate)
+
+    let d = calendar.dateComponents([.day], from: startCalendar, to: endCalendar).day
+    print("D-\(d!)")
+}
+
+func input() {
+    
+    guard let start = readLine() else { return }
+    guard let end = readLine() else { return }
+
+    let temp1 = start.components(separatedBy: " ").compactMap { Int($0)}
+    let temp2 = end.components(separatedBy: " ").compactMap { Int($0) }
+    if temp1[0] + 1000 <= temp2[0] && temp1[1] <= temp2[1] && temp1[2] <= temp2[2] {
+        print("gg")
+    } else {
+        sol2(start, end)
+    }
+}
+input()
+
+
