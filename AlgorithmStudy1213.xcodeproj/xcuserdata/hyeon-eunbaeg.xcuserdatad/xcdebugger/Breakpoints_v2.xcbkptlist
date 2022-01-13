@@ -52,5 +52,32 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "B7BAF357-F0E0-4830-9990-60510699B499"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100002e40">
+            <Locations>
+               <Location
+                  uuid = "B7BAF357-F0E0-4830-9990-60510699B499 - 7ebf1b2a3a8e1727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "AlgorithmStudy1213"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon-eunbaeg/Desktop/AlgorithmStudy1213/AlgorithmStudy1213/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
