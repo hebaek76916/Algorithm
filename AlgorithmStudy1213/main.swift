@@ -5,29 +5,18 @@
 //  Created by 현은백 on 2021/12/13.
 //
 import Foundation
-func sol(N: Int, num: Int) {
-    let arr = readLine()!.split(separator: " ").compactMap{ Int($0) }
-    var sum = 0
-    var j = 0
-    var cnt = 0
-    for i in 0..<N {
-        
-        sum += arr[i]
-        print("SUM", sum)
-        if sum == num {
-            cnt += 1
-        }
-        while sum >= num && j < N {
-            sum -= arr[j]
-            j += 1
-            if sum == num {
-                cnt += 1
-            }
-        }
+
+func solution(_ priorities:[Int], _ location:Int) -> Int {
+    struct Print {
+        let location: Int
+        let priority: Int
     }
-    print(cnt)
+    
+    var printList = priorities.enumerated().map { (priority) -> Print in
+        return Print(location: priority.offset, priority: priority.element)
+    }
+    return 0
 }
-if let input = readLine() {
-    let arr = input.split(separator: " ").compactMap{ Int($0)! }
-    sol(N: arr[0], num: arr[1])
-}
+
+let a = [1,2,3]
+let d = a.contains(<#T##element: Int##Int#>)
