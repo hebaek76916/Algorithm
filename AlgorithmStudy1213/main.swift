@@ -43,3 +43,5 @@
 
 let a = String(1000000, radix: 3)
 print(a)
+
+lazy let s = "dd"
