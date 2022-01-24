@@ -4,7 +4,7 @@
 ////
 ////  Created by 현은백 on 2021/12/13.
 ////
-//import Foundation
+import Foundation
 ////a = 11
 ////n = 26
 ////ny + 1 = a * c
@@ -40,8 +40,23 @@
 //    print(ans)
 //}
 ////32760247633 22801763489
+protocol Serializer {
 
-let a = String(1000000, radix: 3)
-print(a)
+    func serialize(data: AnyObject) -> Int?
 
-lazy let s = "dd"
+}
+
+class RequestSerializer: Serializer {
+
+    func serialize(data: AnyObject) -> Int? {return nil}
+
+}
+
+class DataManager {
+    var serializer: Serializer? = RequestSerializer()
+}
+
+var a = ["1","3","4"]
+let s = a.joined(separator: "-")
+let d = String(format: "%02d", 3)
+print(d)

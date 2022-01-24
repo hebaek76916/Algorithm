@@ -46,7 +46,8 @@
 		13977F41279D1F3C0010F953 /* 신고결과받기_Lv.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신고결과받기_Lv.1.swift"; sourceTree = "<group>"; };
 		13977F43279E98730010F953 /* [3차]N진수 게임_Lv.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[3차]N진수 게임_Lv.2.swift"; sourceTree = "<group>"; };
 		13977F44279E98920010F953 /* 주차 요금 계산_Lv.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "주차 요금 계산_Lv.2.swift"; sourceTree = "<group>"; };
-		13977F46279EA3B00010F953 /* 베스트앨범.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트앨범.swift"; sourceTree = "<group>"; };
+		13977F46279EA3B00010F953 /* 베스트앨범_Lv.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "베스트앨범_Lv.3.swift"; sourceTree = "<group>"; };
+		13977F47279F3D370010F953 /* 실패율_Lv.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실패율_Lv.1.swift"; sourceTree = "<group>"; };
 		1397E8FA276E4F99001433BF /* 1813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1813.swift; sourceTree = "<group>"; };
 		1397E9242770F6FB001433BF /* 1173_ans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1173_ans.swift; sourceTree = "<group>"; };
 		139AC66F278B10AD00205DB6 /* 1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1037.swift; sourceTree = "<group>"; };
@@ -154,7 +155,8 @@
 				13977F41279D1F3C0010F953 /* 신고결과받기_Lv.1.swift */,
 				13977F43279E98730010F953 /* [3차]N진수 게임_Lv.2.swift */,
 				13977F44279E98920010F953 /* 주차 요금 계산_Lv.2.swift */,
-				13977F46279EA3B00010F953 /* 베스트앨범.swift */,
+				13977F46279EA3B00010F953 /* 베스트앨범_Lv.3.swift */,
+				13977F47279F3D370010F953 /* 실패율_Lv.1.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
