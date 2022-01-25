@@ -55,8 +55,12 @@ class RequestSerializer: Serializer {
 class DataManager {
     var serializer: Serializer? = RequestSerializer()
 }
+let a = ["a", "p", "p", "l", "e"]
+var dict: [String: Int] = [:]
 
-var a = ["1","3","4"]
-let s = a.joined(separator: "-")
-let d = String(format: "%02d", 3)
-print(d)
+a.forEach{ str in
+    dict[str, default: 0] += 1
+}
+
+print(dict)
+print("\n\n\n\n")
