@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//https://math.stackexchange.com/questions/1090239/fastest-way-to-find-modular-multiplicative-inverse
 func gcd(_ p: Int, _ q: Int) -> Int {
     if q == 0 { return p }
     return gcd(q, p % q)
