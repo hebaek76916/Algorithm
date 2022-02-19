@@ -26,14 +26,14 @@ func solution(_ genres:[String], _ plays:[Int]) -> [Int] {
                 dict[genres[i]] = plays[i]
             }
         }
-        print(dict)
+        
         dict.sorted { $0.1 > $1.1 }.forEach { (key, value) in
             var twoLimit = 2
             let arr = genres.enumerated()
                 .filter{ $0.element == key }
                 .map { plays[$0.offset] }
                 .sorted(by: >)
-            print(arr)
+            
             for i in 0..<arr.count {
                 if twoLimit > 0 {
                     var dummy: [Int] = []
