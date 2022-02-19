@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131993C827B610F80023B275 /* 튜플_Lv.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131993C727B610F80023B275 /* 튜플_Lv.2.swift */; };
 		13977F42279D1F3C0010F953 /* 신고결과받기_Lv.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13977F41279D1F3C0010F953 /* 신고결과받기_Lv.1.swift */; };
-		13F10B8F277B1F9100627847 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1391EBDD2767823D008DB7E4 /* main.swift */; };
+		139B2A1627BE4C0C00E58F77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1391EBDD2767823D008DB7E4 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		1304C992276D7CA5004D0BCC /* 1225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1225.swift; sourceTree = "<group>"; };
+		131993C527B4ECF80023B275 /* [1차]캐시_Lv.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[1차]캐시_Lv.2.swift"; sourceTree = "<group>"; };
+		131993C727B610F80023B275 /* 튜플_Lv.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "튜플_Lv.2.swift"; sourceTree = "<group>"; };
 		1355654A27883CCC00A4D6BC /* 2579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2579.swift; sourceTree = "<group>"; };
 		1355654C2788517000A4D6BC /* 10990.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10990.swift; sourceTree = "<group>"; };
 		1355654F278966A900A4D6BC /* 10996.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10996.swift; sourceTree = "<group>"; };
@@ -59,6 +62,10 @@
 		139AC671278B10D200205DB6 /* 14501_DP_퇴사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14501_DP_퇴사.swift"; sourceTree = "<group>"; };
 		139AC672278B2FCB00205DB6 /* 1016_TimeOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1016_TimeOver.swift; sourceTree = "<group>"; };
 		139AC674278B3DC000205DB6 /* 20299.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20299.swift; sourceTree = "<group>"; };
+		139B2A0F27BE3EBD00E58F77 /* 제곱ㄴㄴ수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "제곱ㄴㄴ수.swift"; sourceTree = "<group>"; };
+		139B2A1127BE47E600E58F77 /* AlgorithmStudy1213-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmStudy1213-Bridging-Header.h"; sourceTree = "<group>"; };
+		139B2A1227BE47E600E58F77 /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
+		139B2A1327BE47E600E58F77 /* temp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = temp.hpp; sourceTree = "<group>"; };
 		139D6F032778B8890044257C /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		139D6F05277910770044257C /* 1308_fail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1308_fail.swift; sourceTree = "<group>"; };
 		13AB45842784493C00C331A1 /* 2447.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2447.swift; sourceTree = "<group>"; };
@@ -111,6 +118,7 @@
 				13977E43278EE7D80010F953 /* 2960.swift */,
 				13977F3E279CCE600010F953 /* 2003_수들의합2.swift */,
 				13977F4F27A030B90010F953 /* 14565_역원(Inverse) 구하기.swift */,
+				139B2A0F27BE3EBD00E58F77 /* 제곱ㄴㄴ수.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -118,8 +126,11 @@
 		1391EBD12767823D008DB7E4 = {
 			isa = PBXGroup;
 			children = (
+				139B2A1227BE47E600E58F77 /* temp.cpp */,
+				139B2A1327BE47E600E58F77 /* temp.hpp */,
 				1391EBDC2767823D008DB7E4 /* AlgorithmStudy1213 */,
 				1391EBDB2767823D008DB7E4 /* Products */,
+				139B2A1127BE47E600E58F77 /* AlgorithmStudy1213-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,7 +176,9 @@
 				13977F46279EA3B00010F953 /* 베스트앨범_Lv.3.swift */,
 				13977F47279F3D370010F953 /* 실패율_Lv.1.swift */,
 				13977F48279FB8900010F953 /* [1차]뉴스클러스트링_Lv.2.swift */,
+				131993C527B4ECF80023B275 /* [1차]캐시_Lv.2.swift */,
 				13977F5027A0D2510010F953 /* k진수에서 소수 개수 구하기_Lv.2.swift */,
+				131993C727B610F80023B275 /* 튜플_Lv.2.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -219,6 +232,7 @@
 				TargetAttributes = {
 					1391EBD92767823D008DB7E4 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -246,7 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13977F42279D1F3C0010F953 /* 신고결과받기_Lv.1.swift in Sources */,
-				13F10B8F277B1F9100627847 /* main.swift in Sources */,
+				131993C827B610F80023B275 /* 튜플_Lv.2.swift in Sources */,
+				139B2A1627BE4C0C00E58F77 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,10 +386,18 @@
 		1391EBE22767823D008DB7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F6RB5JZKP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmStudy1213-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -382,10 +405,17 @@
 		1391EBE32767823D008DB7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F6RB5JZKP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmStudy1213-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
