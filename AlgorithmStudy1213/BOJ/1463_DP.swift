@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 var dp: [Int] = []
 let intMax = Int.max
 func min(_ a: Int = intMax, _ b: Int = intMax, _ c: Int = intMax) -> Int {
@@ -29,7 +28,6 @@ func min(_ a: Int = intMax, _ b: Int = intMax, _ c: Int = intMax) -> Int {
 if let input = readLine() {
     let n = Int(input)!
     dp = Array(repeating: 0, count: n + 4)
-
     dp[1] = 0
     dp[2] = 1
     dp[3] = 1
